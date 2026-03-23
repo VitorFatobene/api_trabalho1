@@ -1,0 +1,60 @@
+{
+  "info": {
+    "_postman_id": "b477832f-10c3-45f3-9cc3-57362e54ac7e",
+    "name": "trabalho1",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52849502",
+    "_collection_link": "https://go.postman.co/collection/52849502-b477832f-10c3-45f3-9cc3-57362e54ac7e?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "get/produtos",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/produtos",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "produtos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\": 6,\n    \"nome\": \"tenis Vasco\",\n    \"preco\": 450,\n    \"categoria\": \"roupa\",\n    \"estoque\": 20\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/produtos",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "produtos"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
